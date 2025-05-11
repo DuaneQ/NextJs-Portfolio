@@ -1,8 +1,13 @@
-const ProjectList = () => {
+import ProjectLayout from "@/app/projects/ProjectLayout";
+
+const ProjectList = ({projects}) => {
     return (
-        <div>
-        <h1>Project List</h1>
-        {/* Add your project list rendering logic here */}
+        <div className="w-full max-w-4xl px-16 space-y-8 flex flex-col items-center">
+        {projects.map((project, index) => (
+                <ProjectLayout key={index} {...project} />
+            ))}
         </div>
     );
 }
+
+export default ProjectList
