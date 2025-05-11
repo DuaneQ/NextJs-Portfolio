@@ -7,7 +7,7 @@ import React, { Suspense } from 'react'
 const RenderModel = ({ children, className }) => {
   return (
     <Canvas 
-      className={clsx('w-screen h-screen -z-10 relative', className)}> {/* Ensure z-index is lower */}
+      className={clsx('w-screen h-screen -z-10 relative', className)}>
         <Suspense fallback={null}>  
             {children}
         </Suspense>
