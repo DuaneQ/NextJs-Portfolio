@@ -12,7 +12,7 @@ const ItemLayout = ({ children, className }) => {
 
 const AboutDetails = () => {
     return (
-        <section className='w-full py-20'>
+        <section className='w-full py-1'>
             <div className='grid grid-cols-12 gap-8 w-full'>
 
                 <ItemLayout className={'col-span-8 row-span-2 flex-col items-start'}>
@@ -37,8 +37,34 @@ const AboutDetails = () => {
                     </div>
                 </ItemLayout>
 
+                <ItemLayout className={'col-span-8 !p-0'}>
+                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api?username=duaneq&theme=transparent&hide_border=true&title_color=FEFE58"
+                        alt='duaneQ'
+                        loading='lazy' />
+                </ItemLayout>
+
+                <ItemLayout className={'col-span-4 !p-0'}>
+                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/top-langs/?username=duaneq&theme=transparent&hide_border=true&title_color=FEFE58"
+                        alt='duaneQ'
+                        loading='lazy' />
+                </ItemLayout>
+
+                <ItemLayout className={'col-span-full !p-0'}>
+                    <img className='w-full h-auto' src="https://skillicons.dev/icons?i=js,html,css,androidstudio,flutter,react,tailwind,git,github,figma,vscode,java,python,mysql,mongodb,angular,apple,aws,azure,bitbucket,cypress,docker,dotnet,eclipse,gradle,ai,jest,kubernetes,maven,nextjs,postman,postgress,ubuntu"
+                        alt='duaneQ'
+                        loading='lazy' />
+                </ItemLayout>
+
                 <ItemLayout className={'col-span-6 !p-0'}>
-                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api?username=duaneq&theme=radical&hide_border=true" alt='duaneQ' loading='lazy'/>
+                    <img className='w-full h-auto' src="https://github-readme-streak-stats.herokuapp.com?user=duaneq&theme=dark&hide_border=true&type=png&background=EB545400&ring=32EB6F"
+                        alt='duaneQ'
+                        loading='lazy' />
+                </ItemLayout>
+
+                <ItemLayout className={'col-span-8 !p-0'}>
+                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/pin/?username=duaneq&repo=NextJs-Portfolio&theme=transparent&hide_border=true&title_color=FEFE58"
+                        alt='duaneQ'
+                        loading='lazy' />
                 </ItemLayout>
             </div>
         </section>
