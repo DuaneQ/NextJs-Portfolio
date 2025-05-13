@@ -17,7 +17,7 @@ export default function Home() {
       />
       <ProjectList projects={projectsData} />
 
-      <div className="flex items-center justify-center fixed top-20 left-0 h-screen">
+      <div className="flex items-center justify-center fixed top-16 lg:top-20 left-0 h-screen lg:-left-18 h-screen -z-10">
         <RenderModel>
           <Drone />
         </RenderModel>

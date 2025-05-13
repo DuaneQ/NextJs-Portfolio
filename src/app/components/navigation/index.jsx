@@ -8,7 +8,6 @@ import ResponsiveComponent from '../ResponsiveComponent';
 const Navigation = () => {
     const angleIncrement = 360 / BtnList.length; // Divide 360 degrees by the number of buttons
     const screenSize = useScreenSize();
-    console.log(screenSize);
 
     const isMedium = screenSize >= 768;
     const isLargeScreen = screenSize >= 1024;
