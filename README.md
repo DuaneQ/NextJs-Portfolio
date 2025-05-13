@@ -15,11 +15,11 @@ For Demo checkout the following link👇: <br />
 
 #### Home
 
-![C3PO Home Page](public/images/C3PO-home.png)
+![C3PO Home Page](https://github.com/DuaneQ/NextJs-Portfolio/blob/main/public/images/C3PO.png)
 
 #### About
 
-![C3PO About Page](public/images/About-page.png)
+![C3PO About Page](https://github.com/DuaneQ/NextJs-Portfolio/blob/main/public/images/About.png)
 
 ---
 
