@@ -4,8 +4,10 @@ import RenderModel from "../../components/RenderModel";
 import HomeBtn from "../../components/HomeBtn";
 import { R2Model } from "@/app/components/models/R2";
 import AboutDetails from "@/app/components/about";
+import useScreenSize from "../../components/hooks/useScreenSize";
 
 export default function Home() {
+
   return (
     <>
       <HomeBtn />
