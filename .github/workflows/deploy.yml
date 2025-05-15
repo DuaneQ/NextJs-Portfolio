@@ -24,8 +24,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build and export the project
-        run: npm run build && npx next export
+      - name: Build the project
+        run: npm run build
 
       # Step 4: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
