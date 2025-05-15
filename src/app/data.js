@@ -21,7 +21,7 @@ export const projectsData = [
     id: 1,
     name: "Coming Soon",
     description: "Really soon",
-    date: "2022-08-15",
+    date: "2025-08-15",
     demoLink: "https://www.linkedin.com/in/duane-hodges-904a3968/",
   },
 ];

@@ -9,15 +9,19 @@ import HomeBtn from "../../components/HomeBtn";
 export default function Home() {
   return (
     <>
-    <HomeBtn />
+      <HomeBtn />
       <Image
         src={bg}
         alt="background-img"
         className="w-full h-full top-0 left-0 fixed object-cover object-center opacity-25"
       />
-      <ProjectList projects={projectsData} />
+      {/* Lower the ProjectList */}
+      <div className="mt-20 lg:mt-32">
+        <ProjectList projects={projectsData} />
+      </div>
 
-      <div className="flex items-center justify-center fixed top-16 lg:top-20 left-0 h-screen lg:-left-18 h-screen -z-10">
+      {/* Lower the Drone */}
+      <div className="flex items-center justify-center fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-60 -z-10">
         <RenderModel>
           <Drone />
         </RenderModel>
