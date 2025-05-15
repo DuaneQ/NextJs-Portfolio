@@ -20,13 +20,16 @@ const AboutDetails = () => {
                         May the source code be with you
                     </h2>
                     <p className='font-light sm:text-sm md:text-base text-xs'>
-                        I am a software engineer with a passion for building web applications and exploring new technologies. I have experience in full-stack development, and I enjoy working on projects that challenge me to learn and grow.
+                    Proven expertise in building scalable web applications, creating deployment pipelines with quality gates, 
+            and leveraging modern technologies like React, Firebase, and Next.js to deliver innovative solutions. 
+            Skilled in cloud platforms such as AWS, Azure, and GCP, with a strong focus on data integrity, 
+            performance optimization, and driving quality and innovation in software development.
                     </p>
                 </ItemLayout>
 
                 <ItemLayout className={'col-span-4 text-accent'}>
                     <div className='font-semibold w-full text-left text-1xl sm:text-5xl'>
-                        10+ <sub className='font-semibold text-base'>industries</sub>
+                        Multiple Industries <sub className='font-semibold text-base'>industries</sub>
                     </div>
                 </ItemLayout>
 
@@ -37,13 +40,13 @@ const AboutDetails = () => {
                     </div>
                 </ItemLayout>
 
-                <ItemLayout className={'col-span-full sm:col-span-6 md:col-span-4 !p-0'}>
+                <ItemLayout className={'col-span-full md:col-span-6 !p-0'}>
                     <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/top-langs/?username=duaneq&theme=transparent&hide_border=true&title_color=FEFE58"
                         alt='duaneQ'
                         loading='lazy' />
                 </ItemLayout>
 
-                <ItemLayout className={'6 !p-0'}>
+                <ItemLayout className={'col-span-full md:col-span-6 !p-0'}>
                     <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api?username=duaneq&theme=transparent&hide_border=true&title_color=FEFE58"
                         alt='duaneQ'
                         loading='lazy' />
