@@ -7,4 +7,4 @@ const nextConfig = {
   basePath: "/NextJs-Portfolio", // Use your repository name here
 };
 
-module.exports = nextConfig;
+export default nextConfig;
