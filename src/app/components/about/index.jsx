@@ -12,24 +12,18 @@ const ItemLayout = ({ children, className }) => {
 const AboutDetails = () => {
     return (
         <section className='w-full py-1'>
-            <div className='grid grid-cols-12 gap-8 xs:gap-6 md:gap-8 w-full'>
+            <div className='grid grid-cols-12 gap-8 xs:gap-6 md:gap-8 w-full justify-center items-center'>
 
                 <ItemLayout className={'col-span-full lg:col-span-8 row-span-2 flex-col items-start'}>
-                    <h2 className='text-lg md:text-1xl text-left w-full capitalize'>
+                    <h2 className='text-lg md:text-2xl text-left w-full capitalize overflow-hidden break-words'>
                         May the source code be with you
                     </h2>
-                    <p className='font-light text-xs sm:text-sm md:text-base'>
+                    <p className='font-light text-xs sm:text-sm md:text-base overflow-hidden break-words'>
                         Proven expertise in building scalable web applications, creating deployment pipelines with quality gates,
                         and leveraging modern technologies like React, Firebase, and Next.js to deliver innovative solutions.
                         Skilled in cloud platforms such as AWS, Azure, and GCP, with a strong focus on data integrity,
                         performance optimization, and driving quality and innovation in software development.
                     </p>
-                </ItemLayout>
-
-                <ItemLayout className={'col-span-full md:col-span-6 !p-0'}>
-                    <div className='font-semibold text-sm'>
-                        18+ years of experience
-                    </div>
                 </ItemLayout>
 
                 <ItemLayout className={'col-span-full md:col-span-6 !p-0'}>
