@@ -9,10 +9,12 @@ Title: CP-30 Clone
 import React, { useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 
 export default function C3PO(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/models/cp30-transformed.glb')
+  const { nodes, materials, animations } = useGLTF(`${basePath}/models/cp30-transformed.glb`);
   const { actions } = useAnimations(animations, group)
 
   const modelRef = useRef() // Reference for the model
@@ -52,4 +54,4 @@ export default function C3PO(props) {
   )
 }
 
-useGLTF.preload('/models/cp30-transformed.glb')
+useGLTF.preload(`${basePath}/models/cp30-transformed.glb`);

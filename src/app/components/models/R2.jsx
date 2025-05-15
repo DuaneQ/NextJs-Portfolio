@@ -13,8 +13,10 @@ import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 import { useRef } from 'react'
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export function R2Model(props) {
-  const { nodes, materials } = useGLTF('/models/r2-transformed.glb')
+  const { nodes, materials } = useGLTF(`${basePath}/models/r2-transformed.glb`);
 
   const modelRef = useRef()
   useFrame(() => {
@@ -33,4 +35,4 @@ export function R2Model(props) {
   )
 }
 
-useGLTF.preload('/models/r2-transformed.glb')
+useGLTF.preload(`${basePath}/models/r2-transformed.glb`);

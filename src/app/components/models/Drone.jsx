@@ -12,10 +12,13 @@ import React, { useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
+
 export default function Drone(props) {
   const group = useRef()
   const modelRef = useRef()
-  const { nodes, materials, animations } = useGLTF('/models/drone-transformed.glb')
+  const { nodes, materials, animations } = useGLTF(`${basePath}/models/drone-transformed.glb`);
   const { actions } = useAnimations(animations, group)
 
   useFrame(() => {
@@ -40,4 +43,4 @@ export default function Drone(props) {
   )
 }
 
-useGLTF.preload('/models/drone-transformed.glb')
+useGLTF.preload(`${basePath}/models/drone-transformed.glb`);
