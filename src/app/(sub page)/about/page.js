@@ -27,7 +27,7 @@ export default function Home() {
         <div className="flex absolute flex-col items-center top-[45%] left-1/2 -translate-y-1-2 -translate-x-1/2">
           <h1 className="font-bold text-4xl xs:text-7xl lg:text-9xl sm:text-8xl text-accent">Duane</h1>
           <p className="font-light text-sm text-foreground">
-          Dynamic Tech Leader & Cloud Expert | Spearheading Quality & Innovation in Software Engineering | GCP & Data Integrity Specialist
+          Dynamic Tech Leader & Cloud Expert | Spearheading Quality & Innovation in Software Engineering | GCP & Data Integrity Specialist 
           </p>
         </div>
       </div>
