@@ -20,10 +20,10 @@ const AboutDetails = () => {
                         May the source code be with you
                     </h2>
                     <p className='font-light sm:text-sm md:text-base text-xs'>
-                    Proven expertise in building scalable web applications, creating deployment pipelines with quality gates, 
-            and leveraging modern technologies like React, Firebase, and Next.js to deliver innovative solutions. 
-            Skilled in cloud platforms such as AWS, Azure, and GCP, with a strong focus on data integrity, 
-            performance optimization, and driving quality and innovation in software development.
+                        Proven expertise in building scalable web applications, creating deployment pipelines with quality gates,
+                        and leveraging modern technologies like React, Firebase, and Next.js to deliver innovative solutions.
+                        Skilled in cloud platforms such as AWS, Azure, and GCP, with a strong focus on data integrity,
+                        performance optimization, and driving quality and innovation in software development.
                     </p>
                 </ItemLayout>
 
