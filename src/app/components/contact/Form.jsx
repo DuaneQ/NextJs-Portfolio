@@ -9,7 +9,6 @@ export default function Form() {
 
     const sendEmail = (params) => {
         const toastId = toast.loading('Sending email...');
-        console.log('Sending email with params:', process.env.NEXT_PUBLIC_SERVICE_ID);
 
         emailjs
             .send(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, params,
