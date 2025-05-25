@@ -19,10 +19,27 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "Coming Soon",
-    description: "Really soon",
-    date: "2025-08-15",
-    demoLink: "https://www.linkedin.com/in/duane-hodges-904a3968/",
+    name: "NextJs-Portfolio",
+    description:
+      "Next.js Creative Portfolio: Portfolio Website with Next.js, Three.js, and Tailwind CSS 🔥",
+    date: "2025-03-1",
+    demoLink: "https://duaneq.github.io/NextJs-Portfolio/",
+  },
+  {
+    id: 2,
+    name: "Terraform Azure Linux VM Project",
+    description:
+      "This project provisions a complete Azure environment using Terraform to automate the deployment of a Linux Virtual Machine (VM) with networking, security, and Docker installation. ",
+    date: "2025-04-1",
+    demoLink: "https://github.com/DuaneQ/TerraformAzureDemo",
+  },
+  {
+    id: 3,
+    name: "AI Book Recommender System",
+    description:
+      "I developed an intelligent book recommendation system that combines emotional analysis and machine learning to understand and categorize books in a unique way. The system analyzes book descriptions to",
+    date: "2025-05-1",
+    demoLink: "https://github.com/DuaneQ/ai_book_recommender",
   },
 ];
 
@@ -45,10 +62,8 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "/resume.pdf",
+    link: "/Duane.Hodges_Resume.pdf",
     icon: "resume",
     newTab: true,
   },
 ];
-
-
