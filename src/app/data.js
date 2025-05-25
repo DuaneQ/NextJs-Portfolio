@@ -62,7 +62,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "/Duane.Hodges_Resume.pdf",
+    link: "/resume.pdf",
     icon: "resume",
     newTab: true,
   },
