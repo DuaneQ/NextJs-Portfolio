@@ -37,9 +37,17 @@ export const projectsData = [
     id: 3,
     name: "AI Book Recommender System",
     description:
-      "I developed an intelligent book recommendation system that combines emotional analysis and machine learning to understand and categorize books in a unique way. The system analyzes book descriptions to",
+      "I developed an intelligent book recommendation system that combines emotional analysis and machine learning to understand and categorize books in a unique way. The system analyzes book descriptions to.",
     date: "2025-05-1",
     demoLink: "https://github.com/DuaneQ/ai_book_recommender",
+  },
+  {
+    id: 4,
+    name: "Hotel Management Platform",
+    description:
+      "A full-stack hotel management and booking platform built with Next.js 14 (App Router), Sanity CMS, Stripe, and NextAuth. This project demonstrates modern web development skills, including dynamic routing, server/client components, authentication, payment integration, and scalable code organization.",
+    date: "2025-06-13",
+    demoLink: "https://github.com/DuaneQ/react-next-hotel-site",
   },
 ];
 
