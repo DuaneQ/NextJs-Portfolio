@@ -64,3 +64,16 @@ pnpm dev
 # or
 bun dev
 ```
+
+## 🗺️ Architecture Diagram
+
+```mermaid
+flowchart TD
+  Browser --> NextJS
+  NextJS --> ThreeJS
+  NextJS --> Tailwind
+  NextJS --> EmailJS
+  NextJS --> GitHubPages
+  EmailJS --> EmailProvider
+  GitHubPages --> GitHubRepo
+```
